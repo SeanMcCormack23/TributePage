@@ -1,0 +1,70 @@
+:root {
+  --greyGreen: #476A6F;
+  --medGreen: #519E8A;
+  --lightGreen: #7EB09B;
+  --sand: #C5C9A4;
+  --pink: #ECBEB4;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: var(--medGreen);
+  font-size: 18px;
+}
+header {
+  background-color: var(--pink);
+  text-align: center;
+  height: 20%;
+}
+header h1{
+  padding: 2rem 0;
+}
+section {
+  text-align: center;
+  background-color: var(--medGreen);
+  padding-bottom: 2rem;
+}
+section .container {
+  margin: 1rem;
+  border: 2px solid var(--pink);
+  padding-bottom: 1rem;
+}
+section h3{
+  text-decoration: underline;
+  padding: 1rem 0;
+}
+section ul {
+  list-style-type: "\1F44D";
+  list-style-position: inside;
+}
+section p {
+  margin: 3rem 0;
+}
+aside { 
+  padding-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  background-color: var(--pink);
+}
+#timeArea {
+  font-size: 1.5rem;
+}
+button {
+  padding: 1rem 1.3rem;
+  border-radius: 2%;
+  box-shadow: 0px 0px 8px var(--medGreen);
+  margin: 1rem 0;
+}
+footer {
+  text-align: center;
+  margin: 1rem;
+  height: 20%;
+  border: 2px solid var(--pink);
+}
+footer p {
+  padding: 3rem 0;
+}
