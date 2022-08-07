@@ -4,6 +4,7 @@
   --lightGreen: #7EB09B;
   --sand: #C5C9A4;
   --pink: #ECBEB4;
+
 }
 * {
   margin: 0;
@@ -16,6 +17,8 @@
 body {
   background-color: var(--medGreen);
   font-size: 18px;
+  height: 100vh;
+
 }
 header {
   background-color: var(--pink);
